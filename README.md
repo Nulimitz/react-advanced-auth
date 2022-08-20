@@ -36,5 +36,7 @@ $ git clone https://github.com/Nulimitz/react-advanced-auth.git
 $ cd into the repo folder
 $ npm install in the root of the project folder
 $ npm install in the client folder
+$ cp env.example .env
+$ set up the environment variables
 $ run npm dev
 ```
