@@ -48,4 +48,4 @@ Project is in progress. The API is completed. Just need work on the React fronte
 
 ## Acknowledgements
 
-- This project was based on [Youtube](https://www.youtube.com/watch?v=YocRq-KesCM).
+- This project was based on this [Youtube](https://www.youtube.com/watch?v=YocRq-KesCM) tutorial.
