@@ -1,6 +1,6 @@
 # MERN Stack Advanced Authentication
 
-## Table of contents
+## Table of Contents
 
 - [General Info](#general-information)
 - [Technologies Used](#technologies-used)
@@ -9,7 +9,7 @@
 - [Project Status](#project-status)
 - [Acknowledgements](#acknowledgements)
 
-## General info
+## General Info
 
 This MERN Stack Advanced Authentication project is based on this [Youtube](https://www.youtube.com/watch?v=YocRq-KesCM) tutorial. I have added Bootstrap and Bootstrap Icons.
 
