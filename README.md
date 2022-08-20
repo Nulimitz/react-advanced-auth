@@ -8,7 +8,7 @@
 
 ## General info
 
-This MERN Stack Advanced Authentication project is based on this [Youtube](https://www.youtube.com/watch?v=YocRq-KesCM) tutorial. I have added Bootstrap and Bootstrap Icons.
+This MERN Stack Advanced Authentication project is inspired by this tutorial from The Full Stack Junkie on [Youtube](https://www.youtube.com/watch?v=YocRq-KesCM) tutorial. I have added Bootstrap and Bootstrap Icons.
 
 Project includes:
 
