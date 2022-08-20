@@ -8,7 +8,7 @@
 
 ## General info
 
-This MERN Stack Advanced Authentication project is inspired by this tutorial from The Full Stack Junkie on [Youtube](https://www.youtube.com/watch?v=YocRq-KesCM) tutorial. I have added Bootstrap and Bootstrap Icons.
+This MERN Stack Advanced Authentication project inspired by this tutorial from The Full Stack Junkie on [Youtube](https://www.youtube.com/watch?v=YocRq-KesCM) tutorial. I have added Bootstrap and Bootstrap Icons.
 
 Project includes:
 
@@ -20,10 +20,10 @@ Project includes:
 
 Project is created with:
 
-- NodeJS
-- Express
 - Mongoose
+- Express
 - ReactJS
+- NodeJS
 - React Router Dom
 
 ## Setup
