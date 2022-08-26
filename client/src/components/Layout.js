@@ -1,11 +1,11 @@
 import Footer from "./Footer";
 import Navbar from "./Navbar";
 
-function Layout({ navbar, children }) {
+function Layout({ fullscreen, children }) {
   return (
     <>
-      {navbar && <Navbar />}
-      <main className={`${navbar ? "" : "fullpage"}`}>{children}</main>
+      <Navbar />
+      <main className={`${fullscreen ? "fullscreen" : ""}`}>{children}</main>
       <Footer />
     </>
   );

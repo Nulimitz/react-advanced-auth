@@ -2,7 +2,7 @@ import Layout from "../../components/Layout";
 
 function Login() {
   return (
-    <Layout>
+    <Layout fullscreen>
       <div className="container">
         <div className="row mt-5">
           <div className="col-md-6 m-auto">

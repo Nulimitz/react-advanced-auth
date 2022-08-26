@@ -2,7 +2,7 @@
   --offcanvas-width: 270px;
   --topNavbarHeight: 56px;
 }
-.fullpage {
+.fullscreen {
   display: flex;
   justify-content: center;
   align-items: center;
