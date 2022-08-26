@@ -4,9 +4,9 @@ function Register() {
   return (
     <Layout fullscreen>
       <div className="container">
-        <div className="row mt-5">
+        <div className="row">
           <div className="col-md-6 m-auto">
-            <h3 className="mb-3 text-center">Register</h3>
+            <h3 className="mb-3 text-center">User Registration</h3>
             <form>
               <div class="form-floating mb-3">
                 <input

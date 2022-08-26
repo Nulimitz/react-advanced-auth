@@ -4,9 +4,9 @@ function Login() {
   return (
     <Layout fullscreen>
       <div className="container">
-        <div className="row mt-5">
+        <div className="row">
           <div className="col-md-6 m-auto">
-            <h3 className="mb-3 text-center">Login</h3>
+            <h3 className="mb-3 text-center">User Login</h3>
             <form>
               <div class="form-floating mb-3">
                 <input
