@@ -29,16 +29,39 @@ Project is created with:
 - Forgot password
 - Password reset
 
-## Setup
+## Configuration
 
-To run this project, install it locally using npm:
+# Configuration
+
+Create a `.env` file in the root directory and fill it with the following informations :
 
 ```
-$ git clone https://github.com/Nulimitz/react-advanced-auth
-$ cd into the repo folder
-$ npm install in the root of the project folder
-$ npm install in the client folder
-$ run npm dev
+PORT=5000
+
+DATABASE_CONNECTION="Your DB URI"
+
+JWT_SECRET="Your JWT Secret key"
+JWT_EXPIRE="10min"
+
+#For password Reset :
+
+EMAIL_SERVICE=""
+EMAIL_PORT=""
+EMAIL_USERNAME=""
+EMAIL_PASSWORD=""
+EMAIL_FROM=""
+```
+
+## Quick Start
+
+```Javascript
+// Install dependencies for server & client
+npm install && npm run client-install
+
+// Run client & server with concurrently
+npm run dev
+
+// Server runs on http://localhost:5000 and client on http://localhost:3000
 ```
 
 ## Project Status
