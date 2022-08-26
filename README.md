@@ -34,8 +34,7 @@ Project is created with:
 To run this project, install it locally using npm:
 
 ```
-$ browse to the directory you want to grab the repo
-$ git clone the repo
+$ git clone https://github.com/Nulimitz/react-advanced-auth
 $ cd into the repo folder
 $ npm install in the root of the project folder
 $ npm install in the client folder
