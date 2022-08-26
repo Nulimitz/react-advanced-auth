@@ -1,11 +1,10 @@
-import React from "react";
-
+import Logo from "../assets/images/logo.png";
 function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg bg-transparent fixed-top">
       <div className="container-fluid">
         <a className="navbar-brand" href="/">
-          React App
+          <img src={Logo} width="32" height="32" alt="Home" /> React App
         </a>
         <button
           className="navbar-toggler"
