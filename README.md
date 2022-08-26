@@ -5,7 +5,8 @@
 - [General Info](#general-information)
 - [Technologies Used](#technologies-used)
 - [Features](#features)
-- [Setup](#setup)
+- [Configuration](#configuration)
+- [Quick Start](#quick-start)
 - [Project Status](#project-status)
 - [Acknowledgements](#acknowledgements)
 
@@ -30,8 +31,6 @@ Project is created with:
 - Password reset
 
 ## Configuration
-
-# Configuration
 
 Create a `.env` file in the root directory and fill it with the following informations :
 
