@@ -8,25 +8,25 @@ function ResetPassword() {
           <div className="col-md-6 m-auto">
             <h3 className="mb-3 text-center">Reset Password</h3>
             <form>
-              <div class="form-floating mb-3">
+              <div className="form-floating mb-3">
                 <input
                   type="password"
-                  class="form-control"
+                  className="form-control"
                   id="password"
                   placeholder="New Password"
                 />
-                <label for="email">New Password</label>
+                <label htmlFor="email">New Password</label>
               </div>
-              <div class="form-floating mb-3">
+              <div className="form-floating mb-3">
                 <input
                   type="password"
-                  class="form-control"
+                  className="form-control"
                   id="confirmpassword"
                   placeholder="Confirm Password"
                 />
-                <label for="email">Confirm Password</label>
+                <label htmlFor="email">Confirm Password</label>
               </div>
-              <button class="w-100 btn btn-lg btn-primary" type="submit">
+              <button className="w-100 btn btn-lg btn-primary" type="submit">
                 Reset Password
               </button>
             </form>
