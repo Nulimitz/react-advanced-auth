@@ -58,48 +58,51 @@ function Login() {
       <div className="container">
         <div className="row">
           <div className="col-md-6 m-auto">
-            <h3 className="mb-3 text-center">User Login</h3>
+            <div className="card p-5">
+              <div className="card-body">
+                <h3 className="mb-3 text-center">User Login</h3>
+                {error && <div className="alert alert-danger">{error}</div>}
 
-            {error && <div className="alert alert-danger">{error}</div>}
-
-            <form
-              className="p-4 p-md-5 border rounded-3 bg-light"
-              onSubmit={loginHandler}
-            >
-              <div className="form-floating mb-3">
-                <input
-                  type="email"
-                  className="form-control"
-                  id="email"
-                  name="email"
-                  placeholder="name@example.com"
-                  value={email || ""}
-                  onChange={onChange}
-                />
-                <label htmlFor="email">Email address</label>
+                <form onSubmit={loginHandler}>
+                  <div className="form-floating mb-3">
+                    <input
+                      type="email"
+                      className="form-control"
+                      id="email"
+                      name="email"
+                      placeholder="name@example.com"
+                      value={email || ""}
+                      onChange={onChange}
+                    />
+                    <label htmlFor="email">Email address</label>
+                  </div>
+                  <div className="form-floating mb-3">
+                    <input
+                      type="password"
+                      className="form-control"
+                      id="password"
+                      name="password"
+                      placeholder="Password"
+                      value={password || ""}
+                      onChange={onChange}
+                    />
+                    <label htmlFor="password">Password</label>
+                  </div>
+                  <button
+                    className="w-100 btn btn-lg btn-primary"
+                    type="submit"
+                  >
+                    Log in
+                  </button>
+                </form>
+                <p className="mt-3">
+                  <a href="/forgotpassword">Forgot Password</a>
+                </p>
+                <p className="mt-3">
+                  Don't have an account? <a href="/register">Sign up</a>
+                </p>
               </div>
-              <div className="form-floating mb-3">
-                <input
-                  type="password"
-                  className="form-control"
-                  id="password"
-                  name="password"
-                  placeholder="Password"
-                  value={password || ""}
-                  onChange={onChange}
-                />
-                <label htmlFor="password">Password</label>
-              </div>
-              <button className="w-100 btn btn-lg btn-primary" type="submit">
-                Log in
-              </button>
-            </form>
-            <p className="mt-3">
-              <a href="/forgotpassword">Forgot Password</a>
-            </p>
-            <p className="mt-3">
-              Don't have an account? <a href="/register">Sign up</a>
-            </p>
+            </div>
           </div>
         </div>
       </div>
