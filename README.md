@@ -65,7 +65,7 @@ npm run dev
 
 ## Project Status
 
-Project is in progress. The API is completed. Just need work on the React frontend.
+Project is completed. The API and React frontend are completed.
 
 ## Acknowledgements
 
